@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+  background-color: black;
+}
+
+h1{
+  font-family:"Pacifico";
+  color: rgb(255, 255, 255);
+}
+h2, h3, h4, h5, p, address, li{
+  color: #ddd;
+}
+
+.riga{
+  height:2px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.inLinea{
+  margin-bottom: 0px;
+
+}
+.intro{
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom:0px;
+  margin-bottom: 0px;
+}
+
+.TitoloCv{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.sottoTitolo{
+  font-family: "Pacifico";
+  font-size: 15px;
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
+.grid-container_1 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .grid-container_2 {
+    display: grid;
+    column-gap: 10px    ;
+    grid-template-columns: 2fr 0.75fr;
+  }
+  
+  .container {
+    height:2px;
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+  .barraColorata1 {width: 50%; height:2px;  background-color: #04AA6D;}
+  .barraColorata2 {width: 50%; height:2px;  background-color: #04AA6D;}
+  .barraColorata3 {width: 50%; height:2px;  background-color: #04AA6D;}
+  .barraColorata4 {width: 50%; height:2px;  background-color: #04AA6D;}
+
+  .skillTitle{
+    font-size: 12px;
+    margin-top: 0.5rem;
+    margin-bottom: 0px;
+
+  }
+  .grigliaScuole{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+
